@@ -47,3 +47,85 @@ blockquote {
 .quote {
   color: #999;
 }
+
+@media only screen and (min-width: 38em) {
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  html {
+    font-size: 110%;
+  }
+
+  article header {
+    margin: 1.4rem 0 1.4rem 0;
+  }
+
+  html {
+    font-size: 110%;
+  }
+
+  article p {
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width:60em) {
+
+  html {
+    font-size: 120%;
+  }
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  article header {
+    margin-bottom: 1.5rem
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  article p {
+    line-height: 1.5;
+  }
+
+  blockquote {
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  article ol {
+    margin: 0 0 1.5rem 0;
+    padding-left: 1.5rem
+  }
+
+}
+
+@media only screen and ( min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  article {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article header {
+    margin-bottom:  1.6rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.6rem;
+  }
+
+  article ol {
+    padding-left: 1.6
+  }
+}
