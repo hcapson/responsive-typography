@@ -126,6 +126,16 @@ blockquote {
   }
 
   article ol {
-    padding-left: 1.6
+    padding-left: 1.6rem;
+    margin: 0 0 1.6rem 0;
   }
+
+  article p {
+    line-height: 1.6;
+  }
+
+  blockquote {
+    margin: 1.6rem 0 1.6rem 0;
+  }
+
 }
